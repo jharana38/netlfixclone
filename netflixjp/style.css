@@ -187,3 +187,60 @@ section.first > div {
   padding: 10px;
   cursor: pointer;
 }
+
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+}
+
+footer a {
+  font-size: 14px;
+  color: white;
+}
+
+.footer a {
+  font-size: 14px;
+  color: white;
+}
+
+footer .questions {
+  padding: 34px 0;
+  color: white;
+}
+
+.footer {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+@media screen and (max-width: 1300px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    gap: 29px;
+  }
+
+  .faq h2 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .footer {
+    max-width: 90vw;
+  }
+
+  .footer-item {
+    align-items: center;
+  }
+}
